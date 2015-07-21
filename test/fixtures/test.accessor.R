@@ -2,8 +2,8 @@ options( digits = 16 );
 library( jsonlite );
 
 
-mu = 0
-s = 1
+mu = 100
+s = 20
 x = seq( -1000, 1000, 0.5 )
 y = plogis( x, mu,s )
 
