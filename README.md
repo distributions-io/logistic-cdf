@@ -1,6 +1,6 @@
 Cumulative Distribution Function
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > [Logistic](https://en.wikipedia.org/wiki/Logistic_distribution) distribution [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function).
 
@@ -363,8 +363,8 @@ Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
 [travis-image]: http://img.shields.io/travis/distributions-io/logistic-cdf/master.svg
 [travis-url]: https://travis-ci.org/distributions-io/logistic-cdf
 
-[coveralls-image]: https://img.shields.io/coveralls/distributions-io/logistic-cdf/master.svg
-[coveralls-url]: https://coveralls.io/r/distributions-io/logistic-cdf?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/distributions-io/logistic-cdf/master.svg
+[codecov-url]: https://codecov.io/github/distributions-io/logistic-cdf?branch=master
 
 [dependencies-image]: http://img.shields.io/david/distributions-io/logistic-cdf.svg
 [dependencies-url]: https://david-dm.org/distributions-io/logistic-cdf
