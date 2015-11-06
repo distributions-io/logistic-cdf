@@ -20,12 +20,13 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/logistic-cdf.git"
+    "url": "git://github.com/distributions-io/logistic-cdf.git"
   },
   "keywords": [
     "distributions.io",
     "distributions",
     "probability",
+    "continuous",
     "statistics",
     "stats",
     "cdf",
@@ -33,7 +34,7 @@
     "distribution function"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/logistic-cdf/issues"
+    "url": "https://github.com/distributions-io/logistic-cdf/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
@@ -59,7 +60,7 @@
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
-	"validate.io-finite": "^1.0.0"
+    "validate.io-finite": "^1.0.0"
   },
   "license": "MIT"
 }

@@ -4,14 +4,14 @@ Cumulative Distribution Function
 
 > [Logistic](https://en.wikipedia.org/wiki/Logistic_distribution) distribution [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function).
 
-The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for a [Logistic](https://en.wikipedia.org/wiki/Logistic_distribution) random variable is
+The [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) for a [logistic](https://en.wikipedia.org/wiki/Logistic_distribution) random variable is
 
 <div class="equation" align="center" data-raw-text="F(x; \mu, s) = \frac{1}{1+e^{-\frac{x-\mu}{s}}}" data-equation="eq:cdf">
-	<img src="https://cdn.rawgit.com/distributions-io/logistic-cdf/0093aca594042817d2b1d8b9984d8f5ea61e6c0f/docs/img/eqn.svg" alt="Cumulative distribution function for a Logistic distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/logistic-cdf/0093aca594042817d2b1d8b9984d8f5ea61e6c0f/docs/img/eqn.svg" alt="Cumulative distribution function for a logistic distribution.">
 	<br>
 </div>
 
-where `mu` is the location parameter and `s` is the scale parameter.
+where `mu` is the location parameter and `s > 0` is the scale parameter.
 
 ## Installation
 
@@ -79,7 +79,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Logistic](https://en.wikipedia.org/wiki/Logistic_distribution) distribution is a function of 2 parameter(s): `mu`(location parameter) and `s`(scale parameter). By default, `mu` is equal to `0` and `s` is equal to `1`. To adjust either parameter, set the corresponding option(s).
+A [logistic](https://en.wikipedia.org/wiki/Logistic_distribution) distribution is a function of two parameters: `mu`(location parameter) and `s > 0`(scale parameter). By default, `mu` is equal to `0` and `s` is equal to `1`. To adjust either parameter, set the corresponding option.
 
 ``` javascript
 var x = [ -4, -2, 0, 2, 4 ];
